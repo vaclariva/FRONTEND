@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import $ from "jquery";
 import imgnavbar from "./navbar.png";
 
@@ -45,9 +45,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
+      <Link className="navbar-brand navbar-logo" to="/" exact="true">
         <img src={imgnavbar} width="90px" height="32px" alt="Navbar" />
-      </NavLink>
+      </Link>
 
       <button
         className="navbar-toggler"
@@ -64,21 +64,23 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto"> {/* Gunakan ml-auto untuk menu di kanan */}
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/" exact>
+            {/* <NavLink className="nav-link" to="/" exact>
               <i className="fas fa-home"></i>Beranda
-            </NavLink>
+            </NavLink> */}
+            <Link to="/">Beranda</Link>
+
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Cari" exact>
+            <Link className="nav-link" to="/Cari" exact="true">
               <i className="fa fa-search"></i>Cari Lowongan Kerja
-            </NavLink>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/Auth" exact>
+            <Link className="nav-link" to="/Auth" exact="true">
               <i className="fa fa-arrow-right"></i>Masuk
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>

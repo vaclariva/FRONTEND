@@ -1,0 +1,174 @@
+/* Reg.css */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    overflow: hidden; /* Prevent body scroll */
+  }
+  
+  .login-page {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .cf-logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .frame2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form-wrap {
+    max-width: 400px; /* Adjust as needed */
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Reg.css */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    overflow: hidden; /* Prevent body scroll */
+  }
+  
+  .login-page {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .cf-logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px; 
+    height: auto; 
+  }
+  
+  .frame2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form-wrap {
+    max-width: 400px; /* Adjust as needed */
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 250px;
+    background-color: #ffffff; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-top: -150px;
+    padding-top: 50px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+  .form-group {
+    width: 100%;
+    margin: 15px;
+  }
+  
+  input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 10px; /* Sesuaikan properti padding jika perlu */
+  }
+  
+  .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  
+  .btn {
+    background-color: #007bff; /* Adjust as needed */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .login-page {
+      flex-direction: column;
+    }
+  
+    .logo-container {
+      order: 2;
+      flex: none;
+    }
+  
+    .frame2 {
+      order: 1;
+      flex: none;
+    }
+  } 
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .login-page {
+      flex-direction: column;
+    }
+  
+    .logo-container {
+      order: 2;
+      flex: none;
+    }
+  
+    .frame2 {
+      order: 1;
+      flex: none;
+    }
+  }
+  
